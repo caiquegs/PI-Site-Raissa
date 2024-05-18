@@ -16,19 +16,19 @@ if(isset($_POST['submit']))
 	// print_r('<br>');
 	// print_r('Cidade que deseja agendamento: ' . $_POST['cidade_agendamento']);
 
-	include_once('config.php');
+// 	include_once('config.php');
 
-	$nome = $_POST['nome'];
-	$email = $_POST['email'];
-	$telefone = $_POST['telefone'];
-	$sexo = $_POST['genero'];
-	$data_nasc = $_POST['data_nasc'];
-	$cidade_residencia = $_POST['cidade_residencia'];
-	$cidade_agendamento = $_POST['cidade_agendamento'];
+// 	$nome = $_POST['nome'];
+// 	$email = $_POST['email'];
+// 	$telefone = $_POST['telefone'];
+// 	$sexo = $_POST['genero'];
+// 	$data_nasc = $_POST['data_nasc'];
+// 	$cidade_residencia = $_POST['cidade_residencia'];
+// 	$cidade_agendamento = $_POST['cidade_agendamento'];
 
-	$result = mysqli_query($conexao, "INSERT INTO clientes(nome,email,telefone,sexo,data_nasc,cidade_residencia,cidade_agendamento)
-	VALUES ('$nome','$email','$telefone','$sexo','$data_nasc','$cidade_residencia','$cidade_agendamento')");
-}
+// 	$result = mysqli_query($conexao, "INSERT INTO clientes(nome,email,telefone,sexo,data_nasc,cidade_residencia,cidade_agendamento)
+// 	VALUES ('$nome','$email','$telefone','$sexo','$data_nasc','$cidade_residencia','$cidade_agendamento')");
+// }
 
 ?>
 <!DOCTYPE html>
