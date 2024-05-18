@@ -319,7 +319,20 @@ td, th {
 		width: 100%;
 	}
 
+	.inputBox {
+		position: relative;
+	}
 
+	.inputUser {
+		background: none;
+		border: none;
+		border-bottom: 1px solid white;
+		outline: none;
+		color: white;
+		font-size: 15px;
+		width: 100%;
+		letter-spacing: 2px;
+	}
 
 
 }
