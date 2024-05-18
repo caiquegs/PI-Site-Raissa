@@ -1,18 +1,18 @@
 <?php
 
-    $dbHost = 'viaduct.proxy.rlwy.net';
+    $dbHost = 'Localhost';
     $dbUsername = 'root';
-    $dbPassword = 'PFZHNckCbZYcEjrmWGSeuOxJXnqLBOmD';
-    $dbName =  'MySQL';
+    $dbPassword = '';
+    $dbName =  'formulario_clientes';
 
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
-   //  if ($conexao->connect_error)
-   //  {
-   //     echo "Erro";
-   //  }
-   //  else
-   //  {
-   //     echo "Conexão efetuada com sucesso";
-   //  }
+    //if ($conexao->connect_error)
+    // {
+    //    echo "Erro";
+    //}
+    //else
+    //{
+    //    echo "Conexão efetuada com sucesso";
+    //}
 
