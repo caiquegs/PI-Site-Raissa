@@ -335,7 +335,7 @@ td, th {
 	}
 
 	.labelInput {
-		position: absolute;
+		position:absolute;
 		top: 0px;
 		left: 0px;
 		pointer-events: none;
